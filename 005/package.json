@@ -1,0 +1,18 @@
+{
+  "name": "005",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bulid": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-react": "^7.2.1",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.1.0"
+  }
+}

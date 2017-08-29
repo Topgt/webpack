@@ -1,0 +1,18 @@
+{
+  "name": "033",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'test run ' ",
+    "bulid": "webpack --env production",
+    "start": "webpack-dev-server --env development"
+  },
+  "author": "Rum",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "009",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo 'test 009' ",
+    "bulid": "webpack --env production",
+    "linte": "eslint app/ webpack.*.js --cache",
+    "linte-fix": "eslint app/ webpack.*.js --fix"
+  },
+  "author": "Rum",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.5.0",
+    "eslint-loader": "^1.9.0",
+    "html-webpack-plugin": "^2.30.1"
+  }
+}

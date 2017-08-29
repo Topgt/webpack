@@ -1,0 +1,23 @@
+{
+  "name": "007",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "test",
+    "bulid": "webpack --env production"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Rum",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.5",
+    "style-loader": "^0.18.2"
+  }
+}
