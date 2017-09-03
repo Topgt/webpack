@@ -1,0 +1,27 @@
+{
+  "name": "020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo 'test 013' ",
+    "start": "webpack-dev-server --env development",
+    "hmr": "webpack-dev-server --hot",
+    "bulid": "webpack --env production",
+    "linte": "eslint app/ webpack.*.js --cache",
+    "linte-fix": "eslint app/ webpack.*.js --fix"
+  },
+  "author": "Rum",
+  "license": "ISC",
+  "dependencies": {
+    "babili-webpack-plugin": "^0.1.2",
+    "css-loader": "^0.28.5",
+    "eslint": "^4.5.0",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^15.6.1",
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
